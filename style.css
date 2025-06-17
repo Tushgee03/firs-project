@@ -497,13 +497,11 @@ h2 {
   box-shadow: 8px 8px 0 blue, -8px -8px 0 pink;
 }
 .app-zurag {
+  margin-top: 300px;
   display: flex;
-  border-radius: 9999px;
   gap: 30px;
-   
- 
-  bottom: 0;
- 
+  margin-left: 50px;
+  justify-content: space-between;
 }
 .fb {
   flex-direction: row;
@@ -515,7 +513,8 @@ h2 {
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  color: #6972B5;
+  color: #6972b5;
+  gap: 10px;
 }
 .ig {
   display: flex;
@@ -526,6 +525,17 @@ h2 {
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  color: #6972B5;
+  color: #6972b5;
+  gap: 10px;
 }
-
+.lg{
+  width: 101px;
+  height: 34px;
+  display: flex;
+  justify-content: end;
+  margin-right: 50px;
+}
+.il{
+  display: flex;
+  justify-content: space-between;
+}
